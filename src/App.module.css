@@ -1,0 +1,14 @@
+.app__wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  min-height: 100vh;
+}

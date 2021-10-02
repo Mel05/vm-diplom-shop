@@ -1,0 +1,5 @@
+.navBar {
+  grid-area: navBar;
+  text-align: center;
+  background-color: orange;
+}

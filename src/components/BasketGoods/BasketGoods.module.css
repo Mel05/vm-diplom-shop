@@ -1,0 +1,25 @@
+.basketGoods {
+  text-align: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-areas: "allBasketGoods totalBasketGoods";
+  grid-template-rows: 1fr;
+  grid-template-columns: 10fr 4fr;
+  grid-gap: 5px;
+}
+
+.picture {
+  border: 1px solid #000;
+  margin: 10px 30px;
+  height: 10%;
+}
+
+.allGoodsBtn {
+  margin: 10px 30px;
+  height: 10%;
+}
+
+.totalBasketGoods {
+  background-color: orange;
+}

@@ -1,0 +1,26 @@
+.productSpecification {
+  text-align: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.wayProduct {
+  border: 1px solid #000;
+  margin-top: 30px;
+}
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.picture {
+  border: 1px solid #000;
+  margin: 10px 30px;
+}
+
+.productItemBtn {
+  margin: 10px 30px;
+  height: 20%;
+}

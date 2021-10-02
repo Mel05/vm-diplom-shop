@@ -1,0 +1,13 @@
+.header {
+  grid-area: header;
+  min-height: 80px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color: orange;
+  justify-content: space-around;
+}
+
+.loginBtn {
+  height: 50%;
+}

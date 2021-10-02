@@ -1,0 +1,6 @@
+.searchBar {
+  grid-area: searchBar;
+  max-height: 50px;
+  text-align: center;
+  background-color: orange;
+}

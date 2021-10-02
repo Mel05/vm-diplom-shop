@@ -1,0 +1,10 @@
+.subMain {
+  grid-area: subMain;
+  text-align: center;
+
+  display: grid;
+  grid-template-areas: "navBar content";
+  grid-template-rows: 1fr;
+  grid-template-columns: 4fr 10fr;
+  grid-gap: 5px;
+}
