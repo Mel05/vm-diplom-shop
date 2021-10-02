@@ -7,6 +7,10 @@ const Header = () => {
     <div className={s.header}>
       <h1> Header </h1>
 
+      <button className={s.productItemBtn}>
+        <Link to="/"> Назад(временная кнопка) </Link>
+      </button>
+
       <button className={s.loginBtn}>
         <Link to="/login"> Вход/Регистрация </Link>
       </button>

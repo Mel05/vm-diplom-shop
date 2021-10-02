@@ -13,7 +13,7 @@ const ProductSpecification = () => {
         <div className={s.picture}>picture</div>
         <h1> Product Item </h1>
         <button className={s.productItemBtn}>
-          <Link to="/"> Открыть карточку </Link>
+          <Link to="/basketGoods"> Купить </Link>
         </button>
       </div>
     </div>
